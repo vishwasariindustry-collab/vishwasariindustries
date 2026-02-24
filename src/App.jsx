@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/Services";
 import Equipment from "./components/Equipment";
+import Clients from "./components/Clients";
 import ChooseUs from "./components/ChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -61,6 +62,7 @@ function App() {
           <Equipment />
         </div>
       </div>
+      <Clients />
       <ChooseUs />
       <Contact />
       <Footer />

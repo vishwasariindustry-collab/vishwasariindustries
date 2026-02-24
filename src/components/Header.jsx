@@ -19,6 +19,7 @@ export default function Header() {
           <a href="#about" className="hover:text-red-500">About</a>
           <a href="#services" className="hover:text-red-500">Services</a>
           <a href="#equipment" className="hover:text-red-500">Equipment</a>
+          <a href="#clients" className="hover:text-red-500">Clients</a>
           <a href="#contact" className="hover:text-red-500">Contact Us</a>
         </nav>
         {/* Hamburger Icon */}
@@ -36,6 +37,7 @@ export default function Header() {
           <a href="#about" className="block py-2 hover:text-red-500">About</a>
           <a href="#services" className="block py-2 hover:text-red-500">Services</a>
           <a href="#equipment" className="block py-2 hover:text-red-500">Equipment</a>
+          <a href="#clients" className="block py-2 hover:text-red-500">Clients</a>
           <a href="#contact" className="block py-2 hover:text-red-500">Contact Us</a>
         </nav>
       )}

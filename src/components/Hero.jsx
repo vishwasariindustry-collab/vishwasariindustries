@@ -19,7 +19,13 @@ export default function Hero() {
         <p className="text-base sm:text-lg mb-6">
           Custom CNC/VMC machining with quality and speed.
         </p>
-        <button className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-white text-sm sm:text-base">
+        <button
+          onClick={() => {
+            const el = document.getElementById("contact");
+            if (el) el.scrollIntoView({ behavior: "smooth" });
+          }}
+          className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-white text-sm sm:text-base"
+        >
           Get Custom Quote
         </button>
       </motion.div>
