@@ -7,7 +7,7 @@ export default function About() {
       icon: "/images/mission-icon.png",
       content: (
         <p className="text-sm sm:text-base">
-          To deliver innovative and reliable metal fabrication services using state-of-the-art equipment, including arc welding, bending, and drilling machines, while providing customized solutions that meet our clients' specific requirements. We aim to produce durable, high-quality metal products that exceed industry standards and client expectations.
+          To provide innovative and dependable metal fabrication and machining solutions using state-of-the-art equipment and skilled expertise, ensuring superior quality and complete customer satisfaction.
         </p>
       ),
     },
@@ -16,7 +16,7 @@ export default function About() {
       icon: "/images/vision-icon.png",
       content: (
         <p className="text-sm sm:text-base">
-          To be the go-to mechanical works provider for custom metal fabrication, known for our precision, efficiency, and commitment to quality. We strive to continually improve our capabilities, investing in advanced machinery and a skilled workforce to meet the evolving needs of our clients and industry.
+          To become a leading mechanical works provider recognized for precision engineering, operational excellence, and long-term client partnerships.
         </p>
       ),
     },
@@ -25,10 +25,11 @@ export default function About() {
       icon: "/images/values-icon.png",
       content: (
         <ul className="list-none pl-0 text-sm sm:text-base space-y-1">
-          <li>Quality Excellence</li>
-          <li>Innovation</li>
-          <li>Customer Satisfaction</li>
-          <li>Integrity</li>
+          <li>✓ Quality Excellence</li>
+          <li>✓ Innovation & Continuous Improvement</li>
+          <li>✓ Customer-Centric Approach</li>
+          <li>✓ Integrity & Transparency</li>
+          <li>✓ Safety & Compliance</li>
         </ul>
       ),
     },
@@ -57,7 +58,9 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Vishwasari Industries is a mechanical works company specializing in custom metal fabrication services, offering a wide range of solutions for industries such as construction, automotive, manufacturing, and energy. We utilize advanced equipment, including arc welding machines, bending machines, and drilling machines, to produce high-quality metal components and structures. Our expertise in precision fabrication, combined with a commitment to safety and reliability, ensures that we meet the diverse needs of our clients with excellence.
+          Vishwasari Industries is a precision-driven mechanical works company specializing in CNC machining, custom metal fabrication, welding, and industrial component manufacturing. Based in Shirwal, Maharashtra, we serve clients across diverse sectors including construction, automotive, manufacturing, energy, and defence.
+          <br /> <br />
+          With advanced machining centres, skilled technicians, and strict quality control processes, we deliver durable, high-performance components tailored to client specifications. Our focus on precision, reliability, and timely execution makes us a trusted industrial partner.
         </motion.p>
 
         <div className="flex flex-col gap-12">

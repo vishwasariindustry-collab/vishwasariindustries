@@ -101,7 +101,7 @@ export default function Contact() {
               </span>
               <div>
                 <div className="font-semibold text-base">Email</div>
-                <div className="text-gray-300 text-sm">vishwasari2260@gmail.com</div>
+                <div className="text-gray-300 text-sm">vishwasariind@gmail.com</div>
               </div>
             </div>
           </div>

@@ -1,44 +1,45 @@
-import { FaTools, FaUserFriends, FaAward, FaClock, FaRegSmile } from "react-icons/fa";
+import React from "react";
+import { FaTools, FaUsers, FaAward, FaClock, FaRegSmile } from "react-icons/fa";
 
 export default function ChooseUs() {
   const features = [
     {
-      icon: <FaTools className="text-white text-2xl" />,
-      bg: "bg-[#2346a0]",
-      title: "State-of-the-Art Equipment",
-      desc: "Our machine shop is equipped with the latest CNC machinery, welding equipment, and tools to handle projects of all sizes and complexities.",
+      icon: <FaTools />,
+      bg: "bg-blue-600",
+      title: "Advanced CNC & Fabrication Machinery",
+      desc: "State-of-the-art equipment for high-precision manufacturing and complex part production.",
     },
     {
-      icon: <FaUserFriends className="text-white text-2xl" />,
-      bg: "bg-[#fbb017]",
-      title: "Skilled Workforce",
-      desc: "Our team consists of highly trained machinists, fabricators, welders, and engineers committed to providing the best results.",
+      icon: <FaUsers />,
+      bg: "bg-gray-500",
+      title: "Skilled Technical Workforce",
+      desc: "Highly trained machinists, fabricators, welders, and engineers committed to excellence.",
     },
     {
-      icon: <FaAward className="text-white text-2xl" />,
-      bg: "bg-[#1fa463]",
-      title: "Commitment to Quality",
-      desc: "We follow strict quality control procedures to ensure that every part we produce meets our clients' exact specifications.",
+      icon: <FaAward />,
+      bg: "bg-green-600",
+      title: "Strict Quality Control",
+      desc: "Rigorous inspection processes ensure every component meets exact technical specifications.",
     },
     {
-      icon: <FaClock className="text-white text-2xl" />,
-      bg: "bg-[#495057]",
-      title: "Timely Delivery",
-      desc: "We understand the importance of deadlines and ensure that all projects are completed on time, every time.",
+      icon: <FaClock />,
+      bg: "bg-purple-600",
+      title: "Timely Project Execution",
+      desc: "We understand deadlines matter. Projects completed on schedule, every time.",
     },
     {
-      icon: <FaRegSmile className="text-white text-2xl" />,
-      bg: "bg-[#a01d1d]",
-      title: "Customer Satisfaction",
-      desc: "Our clients are our priority, and we work closely with them from concept to completion, providing solutions that meet or exceed expectations.",
+      icon: <FaRegSmile />,
+      bg: "bg-red-600",
+      title: "Long-Term Client Partnerships",
+      desc: "Building lasting relationships through reliability, transparency, and exceptional service.",
     },
   ];
 
   return (
     <section className="max-w-7xl mx-auto py-16 px-4 sm:px-6 mt-10">
-      <h3 className="text-3xl font-bold text-center mb-2 font-quicksand">Why Choose Us ?</h3>
-      <p className="text-center mb-12 font-inter text-base sm:text-lg">
-        State-of-the-art machinery for precision manufacturing
+      <h3 className="text-3xl font-bold text-center mb-2 font-quicksand">Why Choose Vishwasari Industries?</h3>
+      <p className="text-center mb-12 font-inter text-base sm:text-lg text-gray-600">
+        Industry-leading expertise with proven reliability and commitment to your success
       </p>
 
       {/* First Row */}
@@ -46,7 +47,7 @@ export default function ChooseUs() {
         {features.slice(0, 3).map((f) => (
           <div key={f.title} className="flex flex-col items-center text-center px-4">
             <div className={`w-14 h-14 flex items-center justify-center rounded-full mb-4 shadow ${f.bg}`}>
-              {f.icon}
+              {React.cloneElement(f.icon, { className: 'text-white text-2xl' })}
             </div>
             <h4 className="font-semibold text-base sm:text-lg mb-2">{f.title}</h4>
             <p className="text-gray-600 font-inter text-sm sm:text-base">{f.desc}</p>
@@ -59,7 +60,7 @@ export default function ChooseUs() {
         {features.slice(3).map((f) => (
           <div key={f.title} className="flex flex-col items-center text-center px-4">
             <div className={`w-14 h-14 flex items-center justify-center rounded-full mb-4 shadow ${f.bg}`}>
-              {f.icon}
+              {React.cloneElement(f.icon, { className: 'text-white text-2xl' })}
             </div>
             <h4 className="font-semibold text-base sm:text-lg mb-2">{f.title}</h4>
             <p className="text-gray-600 font-inter text-sm sm:text-base">{f.desc}</p>

@@ -2,12 +2,30 @@ import { Card, CardContent } from "../components/ui/Card";
 
 export default function Services() {
   const services = [
-    { title: "Precision CNC Machining", desc: "Custom CNC milling and turning for complex parts with tight tolerance machining for various metals." },
-    { title: "Tool Room", desc: "Precision workspace for creating and maintaining molds, dies, and tools used in manufacturing." },
-    { title: "Prototyping & Reverse Engineering", desc: "Rapid prototyping and 3D modeling Reverse engineering for obsolete or custom parts Small-run production." },
-    { title: "Assembly & Finishing", desc: "Complete assembly services with surface finishing including painting and coating." },
-    { title: "Die Casting & Design", desc: "Process of shaping metal parts using high-pressure molds, focused on accuracy and repeatability." },
-    { title: "Custom Welding", desc: "MIG, Stick, and Flux-Cored welding for both ferrous and non-ferrous metals." },
+    { 
+      title: "Precision CNC Machining", 
+      desc: "Vertical & Horizontal machining • Tight tolerance machining • Complex part manufacturing • Small batch & custom production • Multi-material capability (MS, SS, Aluminum, etc.)" 
+    },
+    { 
+      title: "Custom Metal Fabrication", 
+      desc: "Structural fabrication • Industrial component manufacturing • Custom-built metal assemblies • Machinery part fabrication" 
+    },
+    { 
+      title: "Welding Services", 
+      desc: "MIG Welding • TIG Welding • Stick Welding • Flux-Cored Welding • On-site industrial welding solutions" 
+    },
+    { 
+      title: "Tool Room Services", 
+      desc: "Mold & die maintenance • Custom tool development • Precision tool manufacturing" 
+    },
+    { 
+      title: "Prototyping & Reverse Engineering", 
+      desc: "3D modeling & rapid prototyping • Reverse engineering of obsolete components • Small-run precision production" 
+    },
+    { 
+      title: "Assembly & Surface Finishing", 
+      desc: "Complete mechanical assembly • Powder coating • Painting & polishing • Quality inspection & testing" 
+    },
   ];
 
   return (
